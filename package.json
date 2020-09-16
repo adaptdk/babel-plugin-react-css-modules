@@ -5,12 +5,12 @@
     "url": "http://gajus.com"
   },
   "dependencies": {
-    "@babel/plugin-syntax-jsx": "^7.0.0",
-    "@babel/types": "^7.0.0",
-    "ajv": "^6.5.3",
-    "ajv-keywords": "^3.2.0",
+    "@babel/plugin-syntax-jsx": "^7.10",
+    "@babel/types": "^7.11",
+    "ajv": "^6.12",
+    "ajv-keywords": "^3.5",
     "generic-names": "^2.0.1",
-    "postcss": "^7.0.2",
+    "postcss": "^8.0.3",
     "postcss-modules": "^3.0",
     "postcss-modules-extract-imports": "^2.0",
     "postcss-modules-local-by-default": "^3.0",
@@ -20,21 +20,21 @@
   },
   "description": "Transforms styleName to className using compile time CSS module resolution.",
   "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
-    "@babel/helper-plugin-test-runner": "^7.0.0",
-    "@babel/plugin-transform-flow-strip-types": "^7.0.0",
-    "@babel/plugin-transform-modules-commonjs": "^7.1.0",
-    "@babel/preset-env": "^7.0.0",
-    "@babel/register": "^7.0.0",
+    "@babel/cli": "^7.11",
+    "@babel/core": "^7.11",
+    "@babel/helper-plugin-test-runner": "^7.10",
+    "@babel/plugin-transform-flow-strip-types": "^7.10",
+    "@babel/plugin-transform-modules-commonjs": "^7.10",
+    "@babel/preset-env": "^7.11",
+    "@babel/register": "^7.11",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^26.0",
     "babel-plugin-module-resolver": "^4.0",
     "babel-plugin-tester": "^9.2",
-    "eslint": "^7.6",
-    "eslint-config-canonical": "^22.0",
+    "eslint": "^5.5.0",
+    "eslint-config-canonical": "^12.0.0",
     "flow-bin": "^0.133.0",
-    "husky": "^1.0.0-rc.13",
+    "husky": "^4.3",
     "jest": "^26.0",
     "postcss-less": "^3.1",
     "postcss-nested": "^5.0.0",
@@ -46,7 +46,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run test && npm run lint"
+      "pre-commit": ""
     }
   },
   "jest": {
